@@ -15,5 +15,5 @@ elif score >= 70:
 elif score >= 60:
     print('D학점')
 else:
-    print('F학점')
-    
+    print('FF학점')
+
