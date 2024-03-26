@@ -66,7 +66,7 @@
 
 #---------------------------------------------------------------------------------------------------
 
-import csv
+import csv                    # ctrl + . (quick path)
 
 class Person:
     def __init__(self, name, phone_number, address):
@@ -105,7 +105,6 @@ class AddressBook:
             print("샘플 주소록 파일을 생성하였습니다.")
         except Exception as e:
             print("주소록 파일 생성 중 오류가 발생하였습니다:", e)
-        else:
 
     def menu(self):
         """메뉴를 소개하고 사용자 입력을 받는 메서드"""
