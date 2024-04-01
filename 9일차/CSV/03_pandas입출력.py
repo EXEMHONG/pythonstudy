@@ -9,5 +9,5 @@ output_file = path + 'output/' + input('출력 파일 : ')
 
 data_frame = pd.read_csv(input_file)
 print(data_frame)
-#data_frame.to_csv(output_file, index=False)
-data_frame.to_csv(output_file)
+#data_frame.to_csv(output_file, index=False)        #인덱스 안보겠다.
+#data_frame.to_csv(output_file)                      #인덱스 보겠다
