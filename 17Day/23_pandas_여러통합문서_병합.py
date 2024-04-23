@@ -37,7 +37,7 @@ def run():
 def work():
     # 여러 엑셀 파일 가져오기
     input_path = input_file.get()
-    all_workbooks = glob.glob(os.path.join(input_path, '*.xslx'))
+    all_workbooks = glob.glob(os.path.join(input_path, '*.xlsx'))
 
     data_frames = []
     for workbook in all_workbooks:
